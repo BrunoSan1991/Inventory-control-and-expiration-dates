@@ -1,0 +1,107 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo de corpo da página */
+  body {
+    background-color: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Estilo de formulário */
+  form {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  /* Estilo de título do formulário */
+  .form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo de controle de formulário */
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de etiqueta de formulário */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilo de entrada de formulário */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f4f4f4;
+    font-size: 12px;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    background-color: #e8e8e8;
+  }
+  
+  /* Estilo de ação de formulário */
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo de botão de formulário */
+  .form-button {
+    display: block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .form-button:hover {
+    background-color: #27ae60;
+  }
+  
+  /* Estilo de link de formulário */
+  .form-link {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  h1 {
+    margin-left: 340px;
+    padding: 20px;
+    justify-content: center;
+  }
